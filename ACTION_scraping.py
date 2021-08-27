@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup as bs
 
 # selenium broswer 
 url = "https://www.imdb.com/list/ls009668579/"
-#my_driver = r"C:\Users\afrah\OneDrive\Documents\01 STRIVE\chromedriver.exe" 
-driver = webdriver.Chrome(r"C:\Users\afrah\OneDrive\Documents\01 STRIVE\chromedriver.exe")
+#my_driver = "chromedriver.exe" 
+driver = webdriver.Chrome("chromedriver.exe")
 driver.get(url)
 sleep(1)
 
